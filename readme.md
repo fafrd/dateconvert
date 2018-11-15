@@ -22,21 +22,21 @@ go get -v github.com/fafrd/dateconvert
 ```
 usage:
 ```
-~/work/src/dateconvert $ go run main.go 12-13-2004
+dateconvert 12-13-2004
 13-12-04
 
-~/work/src/dateconvert $ go run main.go 12-13-03
+dateconvert 12-13-03
 13-12-03
 
-~/work/src/dateconvert $ go run main.go 12-13
+dateconvert 12-13
 13-12-18
 
-~/work/src/dateconvert $ go run main.go 13-13
+dateconvert 13-13
 parsing time "13-13-2018": month out of range
 ```
 
 also works with slashes as inputs:
 ```
-~/work/src/dateconvert $ go run main.go 12/13
+dateconvert 12/13
 13-12-18
 ```
