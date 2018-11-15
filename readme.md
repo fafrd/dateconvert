@@ -33,6 +33,7 @@ dateconvert 12-13
 
 dateconvert 13-13
 parsing time "13-13-2018": month out of range
+exit status 1
 ```
 
 also works with slashes as inputs:

@@ -15,8 +15,10 @@ func main() {
 	cleanDate, err := eurodate.Format(os.Args[1])
 	if err != nil {
 		fmt.Println(err)
+		os.Exit(1)
 	} else {
 		fmt.Println(cleanDate)
+		os.Exit(0)
 	}
 }
 
