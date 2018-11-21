@@ -47,7 +47,7 @@ func Format(input string) (string, error) {
 	}
 
 	// finally, format as string
-	outputString = outputTime.Format("02-01-06")
+	outputString = outputTime.Format("02-01-2006")
 
 	return outputString, nil
 }
